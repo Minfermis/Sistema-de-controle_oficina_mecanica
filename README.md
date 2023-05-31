@@ -31,9 +31,9 @@ A mesma equipe avalia e executa os serviços
 
 Para criar o meu sistema de controle e gerenciamento de execução de ordens de serviço em uma oficina mecânica, utilizei o banco de dados **MySQL**. A primeira entidade criada foi **Cliente**. Além disso, decida criar uma outra entidade chamada **Veículo**, que facilite a coleta de dados relacionados a ambas as entidades.
 
-Após a entidade **Veículo**, temos duas entidades com propósitos diferentes, onde a escolha fica a carga do cliente em relação ao tipo de serviço que deseja para o seu carro. Assim, temos como entidades **Revisão** (para realizar revisões periódicas do veículo) e **Concerto** (para realizar manutenção em caso de problemas ou avarias).
+Após a entidade **Veículo**, temos duas entidades com propósitos diferentes, onde a escolha fica a carga do cliente em relação ao tipo de serviço que deseja para o seu carro. Assim, temos como entidades **Revisão** (para realizar revisões periódicas do veículo) e **Conserto** (para realizar manutenção em caso de problemas ou avarias).
 
-Após a escolha do cliente em relação ao tipo de serviço, temos a entidade **Avaliação/Mecânico**. Nessa etapa, são avaliados quais serviços serão realizados na revisão ou no concerto, bem como as peças necessárias. O mecânico responsável deve se cadastrar a **Ordem de Serviço (OS)** nesse momento.
+Após a escolha do cliente em relação ao tipo de serviço, temos a entidade **Avaliação/Mecânico**. Nessa etapa, são avaliados quais serviços serão realizados na revisão ou no conserto, bem como as peças necessárias. O mecânico responsável deve se cadastrar a **Ordem de Serviço (OS)** nesse momento.
 
 Após a criação da OS, os dados são enviados para a entidade **Almoxarifado**, juntamente com o código das peças necessárias. Em seguida, o valor é atualizado no sistema operacional. Os dados prosseguem para a entidade **Serviços**, responsável por armazenar atributos como mão de obra, tipo de serviço e valor das peças.
 
